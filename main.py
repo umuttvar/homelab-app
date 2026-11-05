@@ -11,7 +11,7 @@ APP_VERSION = os.getenv("APP_VERSION", "dev")
 @app.get("/")
 def root():
     return {
-        "message": "Merhaba homelab!",
+        "message": "Uçtan uca CI/CD",
         "version": APP_VERSION,
         "pod": socket.gethostname(),
     }
